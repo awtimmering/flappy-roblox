@@ -1,10 +1,12 @@
 # Flappy Bird Clone for Roblox
 
-A complete Flappy Bird clone implementation for Roblox Studio with proper client-server architecture.
+A complete Flappy Bird clone implementation for Roblox Studio with proper
+client-server architecture.
 
 ## Features
 
-- **Classic Flappy Bird Gameplay**: Tap/click or press space to make the bird flap
+- **Classic Flappy Bird Gameplay**: Tap/click or press space to make the bird
+  flap
 - **Procedural Pipe Generation**: Randomly positioned pipes with gaps
 - **Score System**: Points awarded for passing through pipes
 - **Game States**: Menu, playing, and game over screens
@@ -14,16 +16,22 @@ A complete Flappy Bird clone implementation for Roblox Studio with proper client
 
 ## Installation
 
-1. Open Roblox Studio
-2. Create a new place or open an existing one
-3. Copy the script files to their corresponding locations in your game:
-   - `ReplicatedStorage/RemoteEvents.lua`
-   - `ServerScriptService/GameManager.lua`
-   - `ServerScriptService/PipeManager.lua`
-   - `StarterGui/UIController.lua`
-   - `StarterPlayerScripts/BirdController.lua`
-   - `StarterPlayerScripts/SoundManager.lua`
-   - `StarterPlayerScripts/ParticleEffects.lua`
+### Quick Start
+
+See [STUDIO_SETUP.md](STUDIO_SETUP.md) for detailed setup instructions.
+
+### File Overview
+
+Copy these scripts to their corresponding Roblox Studio locations:
+
+- `ReplicatedStorage/RemoteEvents.lua` (ModuleScript)
+- `ServerScriptService/Init.lua` (Script)
+- `ServerScriptService/GameManager.lua` (Script)
+- `ServerScriptService/PipeManager.lua` (Script)
+- `StarterGui/UIController.lua` (LocalScript)
+- `StarterPlayerScripts/BirdController.lua` (LocalScript)
+- `StarterPlayerScripts/SoundManager.lua` (LocalScript)
+- `StarterPlayerScripts/ParticleEffects.lua` (LocalScript)
 
 ## File Structure
 
@@ -55,18 +63,22 @@ StarterPlayerScripts/
 ## Technical Details
 
 ### Architecture
+
 - **Client-Server Model**: Proper separation of client and server logic
 - **RemoteEvents**: Secure communication between client and server
 - **Modular Design**: Each system is contained in its own script
 
 ### Key Components
+
 - **Bird Physics**: Custom gravity and flap mechanics
 - **Collision Detection**: Server-side collision checking for security
 - **Pipe System**: Continuous generation and cleanup of obstacles
 - **UI System**: Animated menus and HUD elements
 
 ### Customization
+
 You can easily modify:
+
 - Bird physics (gravity, flap force) in `BirdController.lua`
 - Pipe spacing and gap size in `PipeManager.lua`
 - Visual effects in `ParticleEffects.lua`

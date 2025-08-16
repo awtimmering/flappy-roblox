@@ -1,0 +1,10 @@
+[package]
+name = "awtimmering/flappy-roblox"
+version = "1.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+description = "A complete Flappy Bird clone for Roblox"
+license = "MIT"
+authors = ["awtimmering"]
+
+[dependencies]
