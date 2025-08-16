@@ -25,7 +25,6 @@ See [STUDIO_SETUP.md](STUDIO_SETUP.md) for detailed setup instructions.
 Copy these scripts to their corresponding Roblox Studio locations:
 
 - `ReplicatedStorage/RemoteEvents.lua` (ModuleScript)
-- `ServerScriptService/Init.lua` (Script)
 - `ServerScriptService/GameManager.lua` (Script)
 - `ServerScriptService/PipeManager.lua` (Script)
 - `StarterGui/UIController.lua` (LocalScript)

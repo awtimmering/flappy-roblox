@@ -21,8 +21,8 @@ Copy each script file to its corresponding location in Roblox Studio:
 2. **ServerScriptService Scripts**
    - Right-click ServerScriptService
    - Insert → Object → Script (not LocalScript!)
-   - Create "GameManager" and paste code from `ServerScriptService/GameManager.lua`
    - Create "PipeManager" and paste code from `ServerScriptService/PipeManager.lua`
+   - Create "GameManager" and paste code from `ServerScriptService/GameManager.lua`
 
 3. **StarterGui/UIController.lua**
    - Right-click StarterGui
